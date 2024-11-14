@@ -5,6 +5,7 @@ on:
     branches: ['main']
   pull_request:
     branches: ['main']
+  workflow_dispatch:
 
 jobs:
   install:
@@ -67,5 +68,3 @@ jobs:
       contents: write
     concurrency: release
     timeout-minutes: 10
-    inputs:
-      trigger: manual
