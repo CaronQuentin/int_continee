@@ -5,7 +5,7 @@
   },
   "github": {
     "release": true,
-    "tokenRef": "GITHUB_TOKEN"
+    "tokenRef": "GITTHUB_TOKEN"
   },
   "npm": {
     "publish": false
