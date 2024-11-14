@@ -49,7 +49,6 @@ jobs:
 
   e2e-test:
     runs-on: ubuntu-latest
-    if: github.event_name == 'pull_request'
     steps:
       - name: Echo E2E
         run: echo "Hello E2E !"
