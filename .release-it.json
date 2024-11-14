@@ -1,6 +1,13 @@
 {
-  "$schema": "https://unpkg.com/release-it/schema/release-it.json",
+  "git": {
+    "commitMessage": "Release ${version}",
+    "tagName": "v${version}"
+  },
   "github": {
-    "release": true
+    "release": true,
+    "tokenRef": "GITHUB_TOKEN"
+  },
+  "npm": {
+    "publish": false
   }
 }
